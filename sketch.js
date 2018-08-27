@@ -1,3 +1,6 @@
+var timer = 1000;
+var asteroidNum = 100;
+
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	ship = new Spaceship();
@@ -9,7 +12,6 @@ function setup() {
 function draw() {
 	keyPressed();
 	if(!ship.crashed){
-		//keyPressed();
 		background(0);
 		ship.drawShip();
 		updateAsteroids();

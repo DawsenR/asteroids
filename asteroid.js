@@ -1,4 +1,4 @@
-var asteroids = new Array(1);
+var asteroids = new Array(asteroidNum);
 var sizes = ['S','M','L','X'];
 
 class Asteroid{
